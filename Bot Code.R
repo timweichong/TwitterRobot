@@ -5,7 +5,7 @@ library(lubridate)
 library(magrittr)
 
 consumer_key = "M6JyP8IbOA5TTWSnRo1Rtbw9e"
-consumer_secret = "	VA6avx007gkzpxlFeCbAwK6TwVdQoSaLgSunIBBQOx3iDaTxAq"
+consumer_secret = "VA6avx007gkzpxlFeCbAwK6TwVdQoSaLgSunIBBQOx3iDaTxAq"
 access_token = "874294485559242757-jVkFEtGjfsJ7GkdCSuNpzJpEV6bo9M5"
 access_secret = "WgfUmNxmN9zMuYh4OdtzdTe7wtTF3X9blFAaoXp7jsgnK"
 setup_twitter_oauth(consumer_key, consumer_secret, access_token, access_secret)
