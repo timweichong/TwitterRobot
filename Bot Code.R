@@ -2,6 +2,7 @@ library(twitteR)
 library(tidytext)
 library(dplyr)
 library(lubridate)
+library(magrittr)
 
 consumer_key = "kmzqLVmswwLbgLE0liXCCdhmi"
 consumer_secret = "lrxTzTiY1s0Twuzy3u3CIIruIsbX2jDP25vzXnxvWIbYLpJGkD"
