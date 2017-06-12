@@ -4,10 +4,10 @@ library(dplyr)
 library(lubridate)
 library(magrittr)
 
-consumer_key = "kmzqLVmswwLbgLE0liXCCdhmi"
-consumer_secret = "lrxTzTiY1s0Twuzy3u3CIIruIsbX2jDP25vzXnxvWIbYLpJGkD"
-access_token = "389902757-l6jrNY4hhZRsBRYFjYMPbGAHnHrd4RSy58tdxzwN"
-access_secret = "foo4jcyrLrwYfEocHdMjYJlVsrP9RgxSueprZSreP9pUB"
+consumer_key = "M6JyP8IbOA5TTWSnRo1Rtbw9e"
+consumer_secret = "	VA6avx007gkzpxlFeCbAwK6TwVdQoSaLgSunIBBQOx3iDaTxAq"
+access_token = "874294485559242757-jVkFEtGjfsJ7GkdCSuNpzJpEV6bo9M5"
+access_secret = "WgfUmNxmN9zMuYh4OdtzdTe7wtTF3X9blFAaoXp7jsgnK"
 setup_twitter_oauth(consumer_key, consumer_secret, access_token, access_secret)
 
 tweets = searchTwitter("trump", n = 1000, lang = "en")
